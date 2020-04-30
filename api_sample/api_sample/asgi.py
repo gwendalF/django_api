@@ -1,5 +1,5 @@
 """
-ASGI config for ApiSample project.
+ASGI config for api_sample project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'ApiSample.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'api_sample.settings')
 
 application = get_asgi_application()
