@@ -43,5 +43,6 @@ class TestPrinciple:
         url = reverse('principles_list')
         principles = PrincipleFactory.create_batch(12)
         response = api_client.get(url)
+        assert len(response.data) == 12
         assert response.data[0].get("text") == 'Principle 1'
 
