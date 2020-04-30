@@ -1,6 +1,6 @@
 import factory
 
-from ApiApp.models import Value, Principle
+from api_app.models import Value, Principle
 
 class ValueFactory(factory.django.DjangoModelFactory):
     class Meta:

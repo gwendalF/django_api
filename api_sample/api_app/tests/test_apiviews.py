@@ -1,6 +1,6 @@
 from django.urls import reverse
 import pytest
-from ApiApp.tests.factories import ValueFactory, PrincipleFactory
+from api_app.tests.factories import ValueFactory, PrincipleFactory
 
 
 @pytest.fixture

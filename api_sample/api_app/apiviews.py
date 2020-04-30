@@ -1,6 +1,6 @@
 from rest_framework import generics
-from ApiApp.models import Value, Principle
-from ApiApp.serializers import ValueSerializer, PrincipleSerializer
+from api_app.models import Value, Principle
+from api_app.serializers import ValueSerializer, PrincipleSerializer
 
 
 class ValueList(generics.ListAPIView):

@@ -1,6 +1,6 @@
 from django.urls import path
-from ApiApp.apiviews import ValueList, ValueDetail
-from ApiApp.apiviews import PrincipleList, PrincipleDetail
+from api_app.apiviews import ValueList, ValueDetail
+from api_app.apiviews import PrincipleList, PrincipleDetail
 
 urlpatterns = [
     path('values/', ValueList.as_view(), name='values_list'),
