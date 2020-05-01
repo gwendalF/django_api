@@ -10,6 +10,7 @@ django = "*"
 djangorestframework = "*"
 pytest-django = "*"
 factory-boy = "*"
+django-stubs = "*"
 
 [requires]
 python_version = "3.7"
